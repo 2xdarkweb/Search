@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2X Dark</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-image: url(bg.jpg);">
+    <task>
+        <div class="taksbar">
+            <div class="body_d">
+                <div class="nav">
+                    <span><a href="#" >2X Dark</a></span>
+                    <ul>
+                        <a href="#">Home</a>
+                        <a href="mailto:subeesh2705@gmail.com">Contact</a>
+                        <a href="https://www.instagram.com/_sub.eesh_/">Follow</a>
+                        <a href="https://telegram.me/Iam_Subeesh/">Help</a>
+                        <cl>
+                            <p class="clo">Close</p>
+                        </cl>
+                    </ul>
+                    <!--[hamburge (START)]-->
+                    <img src="bar.png"
+                    style="width: 30px; height: 30px; float: right; 
+                    margin-right:12px; margin-top: 12px;" alt="menu hamburger" class="hamburge">
+                    <!--[hamburge (END)]-->
+                </div>
+            </div>
+        </div>
+        </task>
+        
+     <div class="scr1">
+	 <!-- input tag -->
+        <div class="s1">
+            <p style="font-family: sans-serif; margin-top: 5px;margin-bottom: 5px;
+            font-size: x-large; text-align: center;"><b>" Search "</b></p>
+         <input style="color: #000000;" id="searchbar" onkeyup="search()" type="text"
+		  name="search" placeholder="Search..">
+          <i class="clear fa fa-times"></i>
+        </div>
+	    <!-- ordered list -->
+         <br>
+	    <ol id='list'>
+            <div class="search_hint">
+                 <!-- Add list [START]-->
+		        <li style="margin-bottom: 20px;" class="Dark"><a href="website.jpg"><img src="website.jpg" alt="website"><b>website</b></a></li>
+                <li style="margin-bottom: 20px;" class="Dark"><a href="Hacker.jpg"><img src="Hacker.jpg" alt="Hacker"><b>Hacker</b></a></li>
+                <li style="margin-bottom: 5px;" class="Dark"><a href="top.gif"><img src="top.gif" alt="Gif"><b>Gif</b></a></li>
+                <!-- Add list [START]-->
+            </div>
+	    </ol>
+	    <!-- linking javascript -->
+</body>
+<p style="background-color: #000000; color: #ffffff; font-size: small;
+ font-family: sans-serif; padding: 5px; text-align: center;">Copyright © 2023 2X Dark by Subeesh All Right Reseved</p>
+
+ <script>
+    let clear= document.querySelector(".clear");
+    clear.onclick = function(){
+    document.getElementById("searchbar").value ="";
+}
+ </script>
+<script src="script.js"></script>  
+</html>

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+.taksbar{
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+.nav{
+    width: 100%;
+    height: 55px;
+    border-bottom:#ffffff 1.0px solid;
+    background-color: #00000017;
+}
+/*LOGO START*/
+span a{
+   color: #ffffff;
+   font-size: 30px;
+   padding-left: 20px;
+   line-height: 55px;
+}
+span a:hover{
+    color: #ffffff50;
+}
+/*LOGO END*/
+.nav ul{
+    float: right;
+    margin-right: 25px;
+}
+.nav ul a{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 55px;
+}
+.nav ul a{
+    color: #ffffff;
+}
+.nav ul a:hover{
+    color: #f56f6f;
+    border-bottom: 2px solid #f56f6f;
+}
+/*[<!--[hamburge (HIDE) START]-->]*/
+.hamburge{
+    display: none;
+}
+/*[<!--[hamburge (HIDE) END ]-->]*/
+.nav .clo{
+    display: none;
+}
+
+@media (max-width:768px){
+    .nav ul{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-image: url(bg.jpg);
+        padding: 0;
+        text-align: center;
+        margin: 0;
+        left: -100%;
+    }
+    .nav ul a{
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        border: #ffffff 0.1px solid;
+    }
+    .nav ul a:hover{
+        color: #458efc;
+        border-bottom: 0;
+        background-color: rgba(0, 0, 0, 0.699);
+        
+    }
+    /*[<!--[hamburge (HIDE) START]-->]*/
+    .hamburge{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav .slide{
+        left: 0;
+        transition: 0.2s;
+    }  
+    .nav .clo{
+        display:block;
+        padding: 15px;
+        background-color: #ff0707a1;
+        border-bottom: #ffffff 1px solid;
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
+
+/*[<!--[body (Cod by subeesh) START]-->]*/
+.s1{
+    padding:5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.s1 p{
+    color: #ff3b3b;
+    text-shadow:1px -0px 10px #000000;
+}
+#searchbar{
+	padding:5px;
+	border-radius: 10px;
+}
+
+input[type=text] {
+	width: 55%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 70%;
+}
+
+.Dark{
+display: block;
+}
+
+.s1 .clear{
+    margin-left:-25px;
+    color:#ee767688;
+    cursor: pointer;
+}
+
+.search_hint li{
+    background-color: #fafaf2;
+    box-shadow: 1px -0px 5px #000000;
+    padding: 15px;
+    border-radius: 7px;
+    margin-top: -17px;
+    border: #000000 2px solid;
+}
+
+.search_hint li a{
+    font-family: sans-serif;
+    color: #000000;
+}
+.search_hint img{
+    border-radius: 7px;
+    width: 100%;
+}
+
+.scr1 li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*[<!--[body (Cod by subeesh) END]-->]*/
+
